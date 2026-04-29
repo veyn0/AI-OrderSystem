@@ -3,6 +3,7 @@
 > **Status:** Accepted
 > **Letzte Aktualisierung:** 2026-04-28
 
+Die Anwendung ist in 14 fachliche Module plus ein Foundation-Modul shared aufgeteilt — insgesamt 15 Java-Packages unter de.deinrestaurant. Das shared-Modul ist als Spring-Modulith „Open Module" deklariert und darf von jedem anderen Modul importiert werden.
 ## Modulgrenzen
 
 Die Anwendung ist in 14 Module aufgeteilt. Jedes Modul ist ein Java-Package unter `de.deinrestaurant`. Spring Modulith erzwingt die Modul-Grenzen via ArchUnit-Verifikation im CI.
